@@ -1,3 +1,4 @@
+# Strategy pattern, each perform method have different behavior
 class Attack
   attr_accessor :damage
 
