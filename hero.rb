@@ -5,7 +5,7 @@ class Hero
   attr_reader :name
   attr_accessor :armor, :int, :agi, :str
 
-  def initialize(name, armor, int, agi, str)
+  def initialize(name, int, agi, str)
     @name = name
     @int = int
     @agi = agi

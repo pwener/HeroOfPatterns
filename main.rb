@@ -1,8 +1,8 @@
 require_relative 'hero_singleton'
 require_relative 'hero'
 
-hero1 = Hero.new('Merovigian', Set.new, 20, 15, 15)
-HeroSingleton.instance.chose_hero(hero1)
+hero = Hero.new('Merovigian', 20, 15, 15)
+HeroSingleton.instance.chose_hero(hero)
 puts HeroSingleton.instance.hero.talk
 
 # hit without armor
