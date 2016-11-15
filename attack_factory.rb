@@ -1,6 +1,7 @@
 require_relative 'physical_attack'
 require_relative 'magic_attack'
 
+# Its a factory method, not completly purist 
 class AttackFactory
   attr_reader :hero
 

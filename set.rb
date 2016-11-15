@@ -1,6 +1,6 @@
 require_relative 'armor'
 
-# Its a composite
+# Its a composite, but decorator would be more cool :/
 class Set < Armor
   def initialize
     @full_armor = []
